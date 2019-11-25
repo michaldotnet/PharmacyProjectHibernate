@@ -1,0 +1,8 @@
+pl\edu\wszib\gui\AddMedicineGUI.class
+pl\edu\wszib\model\Medicine.class
+pl\edu\wszib\Main.class
+pl\edu\wszib\gui\SellMedicineGUI.class
+pl\edu\wszib\gui\Menu.class
+pl\edu\wszib\dataBase\DataBaseConnector.class
+pl\edu\wszib\dataBase\DataBaseOperations.class
+pl\edu\wszib\gui\ShowInfoAboutMedicineGUI.class

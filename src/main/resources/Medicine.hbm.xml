@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="pl.edu.wszib.model.Medicine" table="tlekarstwo">
+        <id name="id" column="id" type="int">
+            <generator class="native"/>
+        </id>
+        <property name="medicineName" column="medicinename" type="string"/>
+        <property name="price" column="price" type="double"/>
+        <property name="quantity" column="quantity" type="int"/>
+        <property name="needPrescription" column="needpre" type="boolean"/>
+    </class>
+</hibernate-mapping>
